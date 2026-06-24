@@ -1,0 +1,47 @@
+[project]
+name = "magnetos"
+version = "0.7.0"
+description = "CTF 竞赛自动化解题工具集，服务于 MISC（杂项）题型"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "restran", email = "grestran@gmail.com"},
+]
+keywords = ["python", "ctf", "utils"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+]
+dependencies = [
+    "requests",
+    "tornado",
+    "validators",
+    "mountains>=0.6.2",
+    "pillow",
+    "pycipher",
+    "html5lib",
+    "beautifulsoup4",
+    "numpy>=1.22",
+    "scipy>=1.8",
+]
+
+[project.urls]
+Repository = "https://github.com/restran/magnetos"
+
+[dependency-groups]
+dev = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["magnetos*"]
+
+[tool.setuptools.package-data]
+"magnetos.fuzzing" = ["data/what_format.dic"]
