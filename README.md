@@ -53,7 +53,7 @@ gem install zsteg
 
 ### v0.8.0 (2026-06-17)
 
-- **移除 stegdetect 外部二进制依赖**：`what_steg` 现使用纯 Python 实现的 [stegdetect-py](https://github.com/abeluck/stegdetect) 替代原有的 C 语言 `stegdetect` 命令行工具
+- **移除 stegdetect 外部二进制依赖**：`what_steg` 现使用纯 Python 实现的 [stegdetect-py](https://github.com/vu1Art1st/stegdetect-py) 替代原有的 C 语言 `stegdetect` 命令行工具
 - **新增依赖**：`numpy>=1.22`、`scipy>=1.8`
 - **Python 3 现代化**：移除所有 Python 2 兼容代码（`from __future__`、`# -*- coding`、`PY2`/`PY3` 分支）
 - **依赖清理**：移除 `future` 包，不再依赖 Python 2 兼容层
