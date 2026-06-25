@@ -1,4 +1,4 @@
-[English](README.md) | 简体中文
+[简体中文](https://github.com/vu1Art1st/magnetos/blob/main/README_CN.md) | [English](https://github.com/vu1Art1st/magnetos/blob/main/README.md)
 
 >写在前面：本项目主要是利用AI在原作者的基础上，按照自己的需求进行修改，以便于在CTF比赛中使用。
 

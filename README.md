@@ -1,4 +1,4 @@
-[简体中文](readme_cn.md) | English
+[简体中文](https://github.com/vu1Art1st/magnetos/blob/main/README_CN.md) | English
 
 > Foreword: This project is primarily modified with the help of AI based on the original author's work, tailored to my own needs for use in CTF competitions.
 
